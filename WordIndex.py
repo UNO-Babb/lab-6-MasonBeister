@@ -4,7 +4,7 @@
 #Assignment:
 
 def main():
-  textFile = open("fish.txt", 'r')
+  textFile = open("gettysberg.txt", 'r')
   
   wordList = {} #create an empty dictionary
   
