@@ -8,8 +8,8 @@ def main():
   #Create an empty list with possible roll values
   rolls = [0,0,0,0,0,0,0,0,0,0,0]
   #Create two dice values ranging from 1 - 6 each
-  numRolls = 10000
-  for count in range(10000):
+  numRolls = 1000000
+  for count in range(numRolls):
     dice1 = random.randint(1,6)
     dice2 = random.randint(1,6)
     total = dice1 + dice2
